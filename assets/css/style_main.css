@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color: antiquewhite;
+	font-family: 'Raleway' ;
+	background-color: dimgrey;
+	
+}
+.main_title {
+	text-align: center;
+	margin-top:10px;
+}
+.left_side_logo {
+	width: 25%;
+	height: 50px;
+}
+.navbar {
+	width:75%;
+	height: 50px;
+	float: right;
+}
+.nav_list {
+	color: black;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding: 1px;
+	background-color: antiquewhite;
+}
+.nav_item {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.nav_item a {
+	display: block;
+	color: #666;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.nav_item a:hover:not(.active) {
+	background-color: #ddd;
+}
+
+.nav_item a.active {
+	color: white;
+	background-color: #4CAF50;
+}
