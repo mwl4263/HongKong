@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.grid-container{
+	display: grid;
+	width: 100%;
+	height: 100%;
+	grid-gap: 50px;
+	grid-template-areas: 'text1 image text2'
+						 'text1 text3 text2'
+						 '... text3 ...';
+	margin-left: 0;
+}
+.text1 {
+	background-color: antiquewhite;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 300px;
+	color: black;
+	grid-area: text1;
+	/*width: 500*/
+	
+}
+.text2 {
+	background-color: antiquewhite;
+	text-align: center;
+	width: 400px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	grid-area: text2;
+}
+.image-chinese {
+	padding: 10px;
+	text-align: center;
+	margin-left:auto;
+	margin-right: auto;
+	width:400px;
+	height: 200px;
+	grid-area: image;
+	background-color: antiquewhite;
+	display: block;
+}
+.text3 {
+	background-color: antiquewhite;
+	text-align: center;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	color: black;
+	grid-area: text3;
+}
+

@@ -4,6 +4,7 @@ body {
 	color: antiquewhite;
 	font-family: 'Raleway' ;
 	background-color: dimgrey;
+	margin: 3px;;
 	
 }
 img {
@@ -19,12 +20,10 @@ img {
 .left_side_logo {
 	margin-left:5%;
 	width: 25%;
-	height: 50px;
 }
 .navbar {
 	margin-right: 5%;
 	width:75%;
-	height: 50px;
 	float: right;
 }
 .nav_list {
@@ -35,6 +34,7 @@ img {
 	overflow: hidden;
 	padding: 0;
 	background-color: antiquewhite;
+
 }
 .nav_item {
 	float: left;

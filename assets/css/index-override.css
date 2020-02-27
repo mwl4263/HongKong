@@ -36,38 +36,41 @@
 .image2 {
 	width: 500px;
 	height: 300px;
-	text-align: right;
+	text-align: left;
 	margin-top: 20px;
-	padding: 0;
+	padding-top: 50px;;
 	grid-area: image2;
 }
 .grid-container {
 	display: grid;
 	grid-template-areas: 'image1 text1 text1'
-						 'text2 text2 image2'
+						 'image2 text2 text2 '
 						 'footer footer footer';
 	grid-gap: 20px;
 	grid-template-columns: 500px;
 	grid-template-rows: 300px;
 	width: 100%;
+	height: 100%;
 }
 .image-grid {
 	width: 500px;
 	height: 300px;
-	margin-top: 20px;
+	margin-top: 50px;
 	padding: 0;
 	grid-area: image1;
 }
 .main_text2 {
 	margin: 50px;
-	margin-left: 0;
-	width: 500px;
+	padding-top: 50px;
+	margin-left: -50px;;
+	width: 100%;
 	height: auto;
 	grid-area: text2;
 }
 .main-text1 {
+	padding-top: 50px;
 	margin: 50px;
-	margin-left: 0;
+	margin-left: -50px;
 	grid-area: text1;
 }
 .footer {
